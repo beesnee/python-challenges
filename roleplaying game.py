@@ -9,7 +9,7 @@ user_attributes = [["strength", "health", "wisdom", "dexterity"], [0, 0 , 0, 0]]
 # loop to bring the user back to the menu when they finished an activity 
 menu = True
 while menu:
-    question = input("Enter X to buy an attribute, Y to sell an attribute or Z to see your attributes: ")
+    question = input("\nEnter X to buy an attribute, Y to sell an attribute or Z to see your attributes: ")
     question.lower()
 
     if question == "x":
